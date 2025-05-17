@@ -261,7 +261,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 30
-  posZ: -10
+  posZ: 5
 --- !u!1001 &7534521989392508951
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -353,8 +353,10 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Assets/Scripts/colectable.cs"
+"Assets/Assets/Scripts/contador.cs"
 "Assets/Assets/Scripts/mi_objeto.cs"
 "Assets/Assets/Scripts/move.cs"
+"Assets/Assets/Scripts/objeto_cercano.cs"
 "Assets/Assets/Scripts/test_clase.cs"
 -langversion:9.0
 /deterministic

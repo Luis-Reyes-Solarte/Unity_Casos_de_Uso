@@ -9,11 +9,14 @@ public class move : MonoBehaviour
 
     public float horizontalInput;
     public float verticalInput;
+    public float salto;
 
     //variable de tipo GameObject para guerdar la esfera.
     public GameObject miObjeto;
 
     public GameObject miOtroObjeto;
+
+    public GameObject miUltimoObjeto;
 
     //variable para interactuar en otra clase.
     public bool cambioObjeto = false;
@@ -27,8 +30,10 @@ public class move : MonoBehaviour
     {
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
+        salto = Input.GetAxis("Jump");
         transform.Translate(Vector3.right * Time.deltaTime * speed * horizontalInput);
         transform.Translate(Vector3.forward * Time.deltaTime * speed * verticalInput);
+        transform.Translate(Vector3.up * Time.deltaTime * speed * salto);
         //Debug.Log(transform.position);
 
         //Limites del escenario vertical
@@ -52,11 +57,16 @@ public class move : MonoBehaviour
         };
 
         //Uso de miObjeto
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.F))
         {
             //Instantiate(miObjeto, transform.position, Quaternion.identity);
             cambiaMiObjeto();
         };
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            Instantiate(miUltimoObjeto, transform.position, Quaternion.identity);
+        }
+        ;
     }
 
     private void cambiaMiObjeto()

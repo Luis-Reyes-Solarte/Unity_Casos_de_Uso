@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Luis Genes\\My project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\luis genes\\my project\\assets\\assets\\scripts\\contador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\assets\\scripts\\contador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\luis genes\\my project\\assets\\assets\\scripts\\colectable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\assets\\scripts\\colectable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\luis genes\\my project\\assets\\assets\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\Luis Genes\\My project\\assets\\assets\\scripts\\mi_objeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\assets\\scripts\\mi_objeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\Luis Genes\\My project\\assets\\assets\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\assets\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\Luis Genes\\My project\\assets\\assets\\scripts\\mi_objeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\assets\\scripts\\mi_objeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\Luis Genes\\My project\\assets\\assets\\scripts\\objeto_cercano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\assets\\scripts\\objeto_cercano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,28 +35,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "contador.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Genes\\My project\\Assets\\Assets\\Scripts\\contador.cs",
+              "RelativeDocumentMoniker": "Assets\\Assets\\Scripts\\contador.cs",
+              "ToolTip": "C:\\Users\\Luis Genes\\My project\\Assets\\Assets\\Scripts\\contador.cs",
+              "RelativeToolTip": "Assets\\Assets\\Scripts\\contador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T19:53:58.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "colectable.cs",
               "DocumentMoniker": "C:\\Users\\Luis Genes\\My project\\Assets\\Assets\\Scripts\\colectable.cs",
               "RelativeDocumentMoniker": "Assets\\Assets\\Scripts\\colectable.cs",
               "ToolTip": "C:\\Users\\Luis Genes\\My project\\Assets\\Assets\\Scripts\\colectable.cs",
               "RelativeToolTip": "Assets\\Assets\\Scripts\\colectable.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBcAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T21:49:24.379Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "move.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Genes\\My project\\Assets\\Assets\\Scripts\\move.cs",
-              "RelativeDocumentMoniker": "Assets\\Assets\\Scripts\\move.cs",
-              "ToolTip": "C:\\Users\\Luis Genes\\My project\\Assets\\Assets\\Scripts\\move.cs",
-              "RelativeToolTip": "Assets\\Assets\\Scripts\\move.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "objeto_cercano.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Genes\\My project\\Assets\\Assets\\Scripts\\objeto_cercano.cs",
+              "RelativeDocumentMoniker": "Assets\\Assets\\Scripts\\objeto_cercano.cs",
+              "ToolTip": "C:\\Users\\Luis Genes\\My project\\Assets\\Assets\\Scripts\\objeto_cercano.cs",
+              "RelativeToolTip": "Assets\\Assets\\Scripts\\objeto_cercano.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T15:13:46.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T19:18:51.591Z"
             },
             {
               "$type": "Document",
@@ -58,9 +78,22 @@
               "RelativeDocumentMoniker": "Assets\\Assets\\Scripts\\mi_objeto.cs",
               "ToolTip": "C:\\Users\\Luis Genes\\My project\\Assets\\Assets\\Scripts\\mi_objeto.cs",
               "RelativeToolTip": "Assets\\Assets\\Scripts\\mi_objeto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T20:16:34.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "move.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Genes\\My project\\Assets\\Assets\\Scripts\\move.cs",
+              "RelativeDocumentMoniker": "Assets\\Assets\\Scripts\\move.cs",
+              "ToolTip": "C:\\Users\\Luis Genes\\My project\\Assets\\Assets\\Scripts\\move.cs",
+              "RelativeToolTip": "Assets\\Assets\\Scripts\\move.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCMAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T15:13:46.466Z",
               "EditorCaption": ""
             },
             {

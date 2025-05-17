@@ -25,6 +25,7 @@ public class colectable : MonoBehaviour
 
         myObject.cambioObjeto = true;
 
+        contador.instance.SumarColeccionable();
         Destroy(this.gameObject);
     }
 }

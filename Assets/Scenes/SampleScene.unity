@@ -622,8 +622,10 @@ MonoBehaviour:
   speed: 10
   horizontalInput: 0
   verticalInput: 0
+  salto: 0
   miObjeto: {fileID: 3111989634997052779, guid: 8fca26fe30c3779448cfad97104b9133, type: 3}
   miOtroObjeto: {fileID: 7772212610894293155, guid: 651252ef31e31a546afc84daf40b0141, type: 3}
+  miUltimoObjeto: {fileID: 6828041933188565182, guid: ab2186de47a0bde42917698cb2471a49, type: 3}
   cambioObjeto: 0
 --- !u!54 &524581284
 Rigidbody:
@@ -773,6 +775,7 @@ GameObject:
   - component: {fileID: 635750514}
   - component: {fileID: 635750516}
   - component: {fileID: 635750515}
+  - component: {fileID: 635750517}
   m_Layer: 5
   m_Name: Texto_prueba
   m_TagString: Untagged
@@ -821,10 +824,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
+    m_FontSize: 25
+    m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 1
@@ -832,9 +835,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Monedas: 0
-
-'
+  m_Text: 'Coins: 0'
 --- !u!222 &635750516
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -843,6 +844,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 635750513}
   m_CullTransparentMesh: 1
+--- !u!114 &635750517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 635750513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 161d8c4f19a01cf48bf7a9a939c97fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contador_monedas: 0
+  contadorText: {fileID: 635750515}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1689,7 +1704,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3521514773341897525, guid: 8573d9d9ecbf82949a490905bf387c81, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9192820831647161888, guid: 8573d9d9ecbf82949a490905bf387c81, type: 3}
       propertyPath: m_Name
